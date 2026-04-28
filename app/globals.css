@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --primary: 174 80% 42%;
+    --primary-foreground: 222 47% 5%;
+
+    --muted: 222 30% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --border: 222 30% 18%;
+    --input: 222 30% 15%;
+    --ring: 174 80% 42%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink-950 text-ink-50 font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv01';
+  }
+  ::selection {
+    @apply bg-teal-500 text-ink-950;
+  }
+}
+
+@layer utilities {
+  /* Subtle film grain overlay — adds richness to dark backgrounds */
+  .grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.06;
+    z-index: 1;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Glowing orb for hero backgrounds */
+  .glow-orb {
+    @apply absolute rounded-full blur-[120px] opacity-30 pointer-events-none;
+  }
+
+  /* Section padding standard */
+  .section {
+    @apply py-20 md:py-28 lg:py-32 relative overflow-hidden;
+  }
+
+  /* Headline gradient */
+  .headline-gradient {
+    background: linear-gradient(180deg, #f3f6fb 0%, #9bb0d0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Accent text */
+  .accent-text {
+    @apply text-teal-400;
+  }
+
+  /* Subtle dotted grid background */
+  .grid-bg {
+    background-image: radial-gradient(circle, rgba(45, 212, 191, 0.08) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
