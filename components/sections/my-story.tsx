@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button';
 const stats = [
   { icon: BriefcaseMedical, value: 'Licensed', label: 'Doctor of Physical Therapy' },
   { icon: Award, value: 'Occupational', label: 'Health Specialist' },
-  { icon: Users, value: '1-on-1', label: 'Concierge Care Model' },
+  { icon: Users, value: '1-on-1', label: 'Personalized Care Model' },
 ];
 
 export function MyStory() {

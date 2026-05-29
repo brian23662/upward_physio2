@@ -7,7 +7,7 @@ import { siteConfig } from '@/lib/site-config';
 export const metadata: Metadata = {
   title: 'Get Started',
   description:
-    'Book a free discovery call with Upward Physio. Concierge physical therapy delivered to your gym, home, or workplace.',
+    'Book a free discovery call with Upward Physio. Physical therapy delivered to your gym, home, or workplace.',
 };
 
 const contactMethods = [

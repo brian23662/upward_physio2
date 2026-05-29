@@ -4,7 +4,7 @@ export const siteConfig = {
   url: 'https://upwardphysio.com',
   tagline: 'Movement Built to Last.',
   description:
-    'Concierge physical therapy that meets you where you train. Orthopedic rehab, strength & conditioning, and workplace wellness from a licensed PT.',
+    'Upward Physio meets you where you train. Orthopedic rehab, strength & conditioning, and workplace wellness from a licensed PT.',
   contact: {
     email: 'hello@upwardphysio.com',
     phone: '(555) 123-4567',

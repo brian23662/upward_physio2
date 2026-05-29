@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Logo />
             <p className="mt-6 text-sm text-ink-300 max-w-sm leading-relaxed">
-              Concierge physical therapy that meets you where you train. Built for
+              Physical therapy that meets you where you train. Built for
               people who want to move better, recover faster, and stay in the game
               longer.
             </p>

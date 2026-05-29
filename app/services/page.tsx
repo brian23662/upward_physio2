@@ -11,7 +11,7 @@ import { services } from '@/lib/site-config';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Concierge physical therapy, orthopedic rehab, strength & conditioning, injury prevention, and workplace wellness — all delivered by a licensed PT.',
+    'Upward Physio, orthopedic rehab, strength & conditioning, injury prevention, and workplace wellness — all delivered by a licensed PT.',
 };
 
 // Hero images per service
@@ -69,7 +69,7 @@ export default function ServicesPage() {
               <User size={16} />
             </div>
             <span className="text-xs font-bold uppercase tracking-[0.22em] text-teal-400">
-              For Individuals — Cash-Pay Concierge
+              For Individuals — Cash-Pay Simplicity
             </span>
           </div>
         </div>

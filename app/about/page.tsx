@@ -10,7 +10,7 @@ import { CTABanner } from '@/components/sections/cta-banner';
 export const metadata: Metadata = {
   title: 'About — Doctor of Physical Therapy',
   description:
-    'Meet the founder of Upward Physio. Years of occupational health expertise, a passion for performance, and a vision to redefine concierge PT.',
+    'Meet the founder of Upward Physio. Years of occupational health expertise, a passion for performance, and a vision to redefine physical therapy.',
 };
 
 const journey = [
@@ -45,12 +45,12 @@ const philosophy = [
   {
     icon: Users,
     title: 'Real care takes time.',
-    body: 'Hour-long sessions. One client at a time. No clipboards. The model is simple — and it produces better outcomes because it&apos;s built around you.',
+    body: 'Hour-long sessions. One client at a time. No clipboards. The model is simple — and it produces better outcomes because it’s built around you.',
   },
   {
     icon: Target,
     title: 'Rehab is performance.',
-    body: 'Recovery doesn&apos;t end when the pain is gone. It ends when you&apos;re bulletproof — stronger, more resilient, and ready for whatever&apos;s next.',
+    body: 'Recovery doesn’t end when the pain is gone. It ends when you’re bulletproof — stronger, more resilient, and ready for whatever’s next.',
   },
 ];
 
