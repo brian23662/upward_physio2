@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, PlayCircle } from 'lucide-react';
@@ -9,15 +8,18 @@ import { Button } from '@/components/ui/button';
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] flex items-center pt-32 pb-20 overflow-hidden grain">
-      {/* Background image with heavy overlay */}
+      {/* Background video with heavy overlay */}
       <div className="absolute inset-0 -z-10">
-        <Image
-          src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=2400&q=80"
-          alt="Athlete performing barbell training in a modern gym"
-          fill
-          priority
-          className="object-cover"
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="/images/hero-poster.webp"
+          className="h-full w-full object-cover"
+        >
+          <source src="/hero-bg.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/85 to-ink-950/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-ink-950/60" />
       </div>
@@ -58,8 +60,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-8 text-lg md:text-xl text-ink-200 max-w-xl leading-relaxed"
           >
-            Concierge physical therapy delivered in your gym, your home, or
-            your workplace. One-on-one sessions with a licensed PT who treats
+            One-on-one physical therapy delivered in your gym, your home, or
+            your workplace. Sessions with a licensed PT who treats
             you like an athlete — because you are one.
           </motion.p>
 
@@ -92,7 +94,7 @@ export function Hero() {
           >
             <span className="font-semibold">Licensed PT</span>
             <span className="h-1 w-1 rounded-full bg-ink-500" />
-            <span className="font-semibold">Cash-Pay Concierge</span>
+            <span className="font-semibold">Cash-Pay Simplicity</span>
             <span className="h-1 w-1 rounded-full bg-ink-500" />
             <span className="font-semibold">Occupational Health Expert</span>
           </motion.div>

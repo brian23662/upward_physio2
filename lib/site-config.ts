@@ -27,7 +27,7 @@ export const siteConfig = {
 export const services = [
   {
     slug: 'concierge',
-    title: 'Concierge Physical Therapy',
+    title: 'Upward Physio',
     short: 'PT delivered in your gym, home, or workspace.',
     description:
       'One-on-one sessions with a licensed physical therapist — no waiting rooms, no rushed visits, no insurance gatekeeping. We come to your gym, your home, or your office and build the session around your goals.',
@@ -41,7 +41,7 @@ export const services = [
   },
   {
     slug: 'orthopedic',
-    title: 'Orthopedic Rehab & Injury Recovery',
+    title: 'Upward Recovery',
     short: 'Get back to what you love, stronger than before.',
     description:
       'Whether you’re recovering from surgery, rehabbing a chronic injury, or coming back from a setback, we build a progressive plan rooted in clinical expertise and real-world performance.',
@@ -55,7 +55,7 @@ export const services = [
   },
   {
     slug: 'performance',
-    title: 'Strength & Conditioning Performance',
+    title: 'Upward Performance',
     short: 'Bridge the gap between rehab and peak output.',
     description:
       'Rehab doesn’t end when the pain stops — it ends when you’re bulletproof. Performance training built by a PT means you train hard without breaking down.',
@@ -69,7 +69,7 @@ export const services = [
   },
   {
     slug: 'prevention',
-    title: 'Injury Prevention Programs',
+    title: 'Upward Prevention',
     short: 'Build the body that doesn’t go down.',
     description:
       'A proactive program designed to find your weak links before they become injuries. Movement screens, mobility work, and targeted strength built around how you actually live and train.',
@@ -83,7 +83,7 @@ export const services = [
   },
   {
     slug: 'workplace',
-    title: 'Workplace Wellness & Corporate Consulting',
+    title: 'Upward Wellness',
     short: 'Healthier teams. Fewer injuries. Better output.',
     description:
       'On-site assessments, ergonomic consulting, and movement programs built for your workforce. Drawing from years of occupational health experience, we reduce injury rates and demonstrate measurable ROI.',

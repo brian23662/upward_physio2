@@ -25,10 +25,11 @@ export function MyStory() {
               <div className="absolute -bottom-6 -right-6 h-2/3 w-2/3 rounded-2xl bg-ember-500/10 blur-2xl" />
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-ink-700">
                 <Image
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80"
-                  alt="Physical therapist working one-on-one with a client"
+                  src="/images/dj-resistance-band.webp"
+                  alt="DJ Keim coaching a client through resistance-band shoulder work"
                   fill
-                  className="object-cover"
+                  className="object-cover object-right"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-950/40 via-transparent to-transparent" />
               </div>
@@ -41,10 +42,10 @@ export function MyStory() {
                   </div>
                   <div>
                     <div className="text-sm font-semibold text-ink-50">
-                      Built from the bottom up
+                      DJ Keim, PT, DPT, CSCS
                     </div>
                     <div className="text-xs text-ink-400">
-                      Practice founder & lead PT
+                      Doctor of Physical Therapy
                     </div>
                   </div>
                 </div>
@@ -68,22 +69,23 @@ export function MyStory() {
             <Reveal delay={0.1}>
               <div className="mt-8 space-y-5 text-ink-200 leading-relaxed">
                 <p>
-                  I&apos;m a licensed physical therapist with a background in{' '}
-                  <span className="text-ink-50 font-semibold">occupational health</span>
-                  , where I spent years rehabbing workers, designing return-to-work
-                  programs, and seeing firsthand how movement quality (or the lack of
-                  it) shapes someone&apos;s career and life.
+                  I&apos;m DJ Keim, a licensed physical therapist who earned my{' '}
+                  <span className="text-ink-50 font-semibold">Doctorate of Physical Therapy from Washington University in St. Louis</span>.
+                  I spent my first four years post-graduation in Washington, DC,
+                  working in outpatient orthopedics and sports medicine.
                 </p>
                 <p>
-                  But I kept seeing the same gap: real people, real lifters, real
-                  athletes — getting boxed in by insurance limits, 15-minute visits,
-                  and cookie-cutter rehab. So I started Upward Physio as a concierge
-                  side practice, treating clients in their gyms and homes.
+                  More recently, I developed and launched the first preventative
+                  therapy program for Metro (WMATA) employees across the
+                  DC/Maryland/Virginia region — work that sparked my passion for
+                  occupational health and injury prevention. I&apos;ve since moved
+                  to Denver, where I direct an occupational health clinic.
                 </p>
                 <p className="text-ink-50 font-medium">
-                  My vision is simple: build a practice where occupational health,
-                  orthopedic rehab, strength &amp; conditioning, injury prevention, and
-                  workplace wellness exist under one roof — no compromises, no silos.
+                  My approach is movement-focused: targeted exercise and education
+                  to teach you the strategies and habits that get you out of pain
+                  and prevent recurrent injury — backed by my Certified Strength &amp;
+                  Conditioning Coach (CSCS) credential.
                 </p>
               </div>
             </Reveal>

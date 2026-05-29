@@ -86,10 +86,12 @@ export default function AboutPage() {
             <Reveal delay={0.2} className="lg:col-span-2">
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-ink-700">
                 <Image
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80"
-                  alt="Physical therapist guiding client through movement"
+                  src="/images/dj-manual-therapy.webp"
+                  alt="DJ Keim working with a client in a window-lined therapy studio"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent" />
               </div>
@@ -116,37 +118,89 @@ export default function AboutPage() {
             <Reveal delay={0.1} className="lg:col-span-2">
               <div className="space-y-6 text-ink-200 leading-relaxed text-lg">
                 <p>
-                  I&apos;m a licensed physical therapist working full-time in
-                  occupational health — a specialty most clinicians overlook, but
-                  one that taught me more about human movement than anything else.
-                  I&apos;ve seen the full range: from desk-bound office workers
-                  to industrial laborers, from post-injury recoveries to
-                  high-performing athletes who never thought they&apos;d need a PT.
+                  Hi everyone, I&apos;m DJ Keim, Momenta&apos;s newest physical
+                  therapist. I grew up in southeast Missouri and earned my
+                  Doctorate of Physical Therapy from Washington University in
+                  St. Louis. I spent my first four years post-graduation in
+                  Washington, DC, working in outpatient orthopedics and sports
+                  medicine while also treating a small in-home caseload on nights
+                  and weekends.
                 </p>
                 <p>
-                  Along the way, I noticed a recurring theme. The best clinical
-                  care was being delivered to the people who needed it least —
-                  people inside the system. Meanwhile, the lifters, runners, and
-                  active professionals I&apos;d see on weekends were stuck with
-                  rushed visits, watered-down rehab, and clinicians who
-                  didn&apos;t speak their language.
+                  More recently, I spent a year developing and launching the
+                  first preventative therapy program for{' '}
+                  <span className="text-teal-400">Metro (WMATA)</span> employees
+                  across the DC/Maryland/Virginia region, which sparked my passion
+                  for occupational health and injury prevention. I recently moved
+                  to Denver and now work as the director of an occupational health
+                  clinic here in the city.
+                </p>
+                <p>
+                  Outside of work, I enjoy traveling, spending time with family,
+                  finding new coffee shops and breweries, and weightlifting.
                 </p>
                 <p className="text-ink-50 font-medium">
-                  So I started Upward Physio. A concierge cash-pay practice
-                  treating clients in their gyms and homes. Hour-long sessions.
-                  Real attention. Real plans. Real results. And it&apos;s growing.
+                  My approach is movement-focused, using targeted exercise and
+                  education to teach you the strategies, exercises and habits that
+                  will get you out of pain and prevent recurrent injury. When
+                  appropriate, I utilize hands-on techniques and modalities to help
+                  restore pain-free movement. I&apos;m also a Certified Strength and
+                  Conditioning Coach (CSCS), which helps shape my approach to rehab
+                  and performance.
                 </p>
-                <p>
-                  My next chapter is going full-time — building a practice that
-                  unifies <span className="text-teal-400">occupational health</span>,{' '}
-                  <span className="text-teal-400">orthopedics</span>,{' '}
-                  <span className="text-teal-400">strength &amp; conditioning</span>,{' '}
-                  <span className="text-teal-400">injury prevention</span>, and{' '}
-                  <span className="text-teal-400">workplace wellness</span> into one
-                  seamless service. Built for individuals who refuse to settle, and
-                  for organizations who want to take care of their people the
-                  right way.
-                </p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo gallery */}
+      <section className="section bg-ink-950 border-t border-ink-800">
+        <div className="container">
+          <Reveal>
+            <SectionHeading
+              eyebrow="In Practice"
+              title={
+                <>
+                  Where the work <span className="text-teal-400 italic">happens.</span>
+                </>
+              }
+            />
+          </Reveal>
+          <div className="mt-12 grid gap-4 md:grid-cols-6 md:auto-rows-[200px]">
+            <Reveal className="md:col-span-4 md:row-span-2">
+              <div className="relative h-full min-h-[260px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-treatment-room.webp"
+                  alt="DJ Keim treating a client in a window-lined therapy studio"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 66vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/50 to-transparent" />
+              </div>
+            </Reveal>
+            <Reveal delay={0.1} className="md:col-span-2">
+              <div className="relative h-full min-h-[200px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-gym-session.webp"
+                  alt="DJ Keim coaching a client through overhead mobility in the gym"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
+            </Reveal>
+            <Reveal delay={0.2} className="md:col-span-2">
+              <div className="relative h-full min-h-[200px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-presenting.webp"
+                  alt="DJ Keim presenting on physical therapy in transit operations"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/40 to-transparent" />
               </div>
             </Reveal>
           </div>
