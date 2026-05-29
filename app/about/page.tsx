@@ -89,7 +89,7 @@ export default function AboutPage() {
                   src="/images/dj-manual-therapy.webp"
                   alt="DJ Keim working with a client in a window-lined therapy studio"
                   fill
-                  className="object-cover"
+                  className="object-cover object-[55%_center]"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   priority
                 />

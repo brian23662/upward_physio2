@@ -28,7 +28,7 @@ export function MyStory() {
                   src="/images/dj-resistance-band.webp"
                   alt="DJ Keim coaching a client through resistance-band shoulder work"
                   fill
-                  className="object-cover object-right"
+                  className="object-cover object-[30%_center]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-950/40 via-transparent to-transparent" />

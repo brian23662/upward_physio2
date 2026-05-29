@@ -16,7 +16,7 @@ export function Hero() {
           muted
           playsInline
           poster="/images/hero-poster.webp"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-top"
         >
           <source src="/hero-bg.mp4" type="video/mp4" />
         </video>
