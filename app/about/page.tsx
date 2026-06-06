@@ -1,1 +1,297 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZSc7CmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7CmltcG9ydCB7IEFycm93UmlnaHQsIEdyYWR1YXRpb25DYXAsIEJyaWVmY2FzZSwgVGFyZ2V0LCBVc2VycywgSGVhcnQsIFphcCB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9idXR0b24nOwppbXBvcnQgeyBSZXZlYWwgfSBmcm9tICdAL2NvbXBvbmVudHMvcmV2ZWFsJzsKaW1wb3J0IHsgU2VjdGlvbkhlYWRpbmcgfSBmcm9tICdAL2NvbXBvbmVudHMvc2VjdGlvbi1oZWFkaW5nJzsKaW1wb3J0IHsgQ1RBQmFubmVyIH0gZnJvbSAnQC9jb21wb25lbnRzL3NlY3Rpb25zL2N0YS1iYW5uZXInOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogJ0Fib3V0IOKAlCBEb2N0b3Igb2YgUGh5c2ljYWwgVGhlcmFweScsCiAgZGVzY3JpcHRpb246CiAgICAnTWVldCB0aGUgZm91bmRlciBvZiBVcHdhcmQgUGh5c2lvLiBZZWFycyBvZiBvY2N1cGF0aW9uYWwgaGVhbHRoIGV4cGVydGlzZSwgYSBwYXNzaW9uIGZvciBwZXJmb3JtYW5jZSwgYW5kIGEgdmlzaW9uIHRvIHJlZGVmaW5lIHBoeXNpY2FsIHRoZXJhcHkuJywKfTsKCmNvbnN0IGpvdXJuZXkgPSBbCiAgewogICAgaWNvbjogR3JhZHVhdGlvbkNhcCwKICAgIHRpdGxlOiAnQ2xpbmljYWwgVHJhaW5pbmcnLAogICAgYm9keTogJ0Vhcm5lZCBhIERvY3RvcmF0ZSBvZiBQaHlzaWNhbCBUaGVyYXB5IHdpdGggYSBmb2N1cyBvbiBvcnRob3BlZGljIHJlaGFiIGFuZCBtb3ZlbWVudCBzY2llbmNlLiBCdWlsdCBhIGZvdW5kYXRpb24gaW4gZXZpZGVuY2UtYmFzZWQgY2FyZSBmcm9tIGRheSBvbmUuJywKICB9LAogIHsKICAgIGljb246IEJyaWVmY2FzZSwKICAgIHRpdGxlOiAnT2NjdXBhdGlvbmFsIEhlYWx0aCcsCiAgICBib2R5OiAnU3BlbnQgeWVhcnMgaW4gb2NjdXBhdGlvbmFsIGhlYWx0aCwgZGVzaWduaW5nIHJldHVybi10by13b3JrIHByb2dyYW1zLCBjb25kdWN0aW5nIGluanVyeSBwcmV2ZW50aW9uIHRyYWluaW5nLCBhbmQgc2VlaW5nIGhvdyBtb3ZlbWVudCBxdWFsaXR5IHNoYXBlcyBsaXZlcyBhdCBzY2FsZS4nLAogIH0sCiAgewogICAgaWNvbjogVGFyZ2V0LAogICAgdGl0bGU6ICdDb25jaWVyZ2UgU2lkZSBQcmFjdGljZScsCiAgICBib2R5OiAnU3RhcnRlZCBVcHdhcmQgUGh5c2lvIHRvIHNlcnZlIHJlYWwgcGVvcGxlIGluIHJlYWwgZW52aXJvbm1lbnRzIOKAlCBneW1zLCBob21lcywgb2ZmaWNlcy4gTm8gaW5zdXJhbmNlIGxpbWl0cy4gTm8gMTUtbWludXRlIHZpc2l0cy4gTm8gY29tcHJvbWlzZXMuJywKICB9LAogIHsKICAgIGljb246IFphcCwKICAgIHRpdGxlOiAnRnVsbC1UaW1lIFZpc2lvbicsCiAgICBib2R5OiAnQnVpbGRpbmcgdG93YXJkIGEgZnVsbC10aW1lIHByaXZhdGUgcHJhY3RpY2UgdGhhdCBpbnRlZ3JhdGVzIG9ydGhvcGVkaWMgcmVoYWIsIHBlcmZvcm1hbmNlIHRyYWluaW5nLCBpbmp1cnkgcHJldmVudGlvbiwgYW5kIGNvcnBvcmF0ZSB3ZWxsbmVzcyB1bmRlciBvbmUgcm9vZi4nLAogIH0sCl07Cgpjb25zdCBwaGlsb3NvcGh5ID0gWwogIHsKICAgIGljb246IEhlYXJ0LAogICAgdGl0bGU6ICdZb3UgYXJlIGFuIGF0aGxldGUuJywKICAgIGJvZHk6ICdXaGV0aGVyIHlvdSBsaWZ0LCBydW4sIGNsaW1iLCBvciBqdXN0IHdhbnQgdG8gcGxheSB3aXRoIHlvdXIga2lkcyDigJQgeW91ciBib2R5IGRlc2VydmVzIGF0aGxldGUtbGV2ZWwgY2FyZS4gSSB0cmVhdCBldmVyeW9uZSBsaWtlIG9uZS4nLAogIH0sCiAgewogICAgaWNvbjogVXNlcnMsCiAgICB0aXRsZTogJ1JlYWwgY2FyZSB0YWtlcyB0aW1lLicsCiAgICBib2R5OiAnSG91ci1sb25nIHNlc3Npb25zLiBPbmUgY2xpZW50IGF0IGEgdGltZS4gTm8gY2xpcGJvYXJkcy4gVGhlIG1vZGVsIGlzIHNpbXBsZSDigJQgYW5kIGl0IHByb2R1Y2VzIGJldHRlciBvdXRjb21lcyBiZWNhdXNlIGl04oCZcyBidWlsdCBhcm91bmQgeW91LicsCiAgfSwKICB7CiAgICBpY29uOiBUYXJnZXQsCiAgICB0aXRsZTogJ1JlaGFiIGlzIHBlcmZvcm1hbmNlLicsCiAgICBib2R5OiAnUmVjb3ZlcnkgZG9lc27igJl0IGVuZCB3aGVuIHRoZSBwYWluIGlzIGdvbmUuIEl0IGVuZHMgd2hlbiB5b3XigJlyZSBidWxsZXRwcm9vZiDigJQgc3Ryb25nZXIsIG1vcmUgcmVzaWxpZW50LCBhbmQgcmVhZHkgZm9yIHdoYXRldmVy4oCZcyBuZXh0LicsCiAgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFib3V0UGFnZSgpIHsKICByZXR1cm4gKAogICAgPD4KICAgICAgey8qIEhlcm8gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icmVsYXRpdmUgcHQtMzIgcGItMjAgbWQ6cHQtNDAgbWQ6cGItMjggb3ZlcmZsb3ctaGlkZGVuIGdyYWluIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCAtei0xMCBncmlkLWJnIG9wYWNpdHktNDAiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Imdsb3ctb3JiIGgtWzUwMHB4XSB3LVs1MDBweF0gYmctdGVhbC01MDAgLXJpZ2h0LTQwIHRvcC0xLzQgb3BhY2l0eS0yMCIgLz4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciByZWxhdGl2ZSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMTIgbGc6Z3JpZC1jb2xzLTUgbGc6Z2FwLTE2IGl0ZW1zLWVuZCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0zIj4KICAgICAgICAgICAgICA8UmV2ZWFsPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBtYi02Ij4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoLXB4IHctOCBiZy10ZWFsLTQwMCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLVswLjIyZW1dIHRleHQtdGVhbC00MDAiPgogICAgICAgICAgICAgICAgICAgIEFib3V0CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtNXhsIG1kOnRleHQtNnhsIGxnOnRleHQtN3hsIGZvbnQtYm9sZCBsZWFkaW5nLVsxLjAyXSB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAgICAgIEEgbGljZW5zZWQgUFQgYnVpbGRpbmcgdGhlIHByYWN0aWNlIGhlIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZWFsLTQwMCBpdGFsaWMiPndpc2hlZCBleGlzdGVkLjwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvaDE+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTggdGV4dC1sZyBtZDp0ZXh0LXhsIHRleHQtaW5rLTMwMCBsZWFkaW5nLXJlbGF4ZWQgbWF4LXctMnhsIj4KICAgICAgICAgICAgICAgICAgTW92ZW1lbnQgaXMgbWVkaWNpbmUsIGJ1dCBvbmx5IHdoZW4gaXQmYXBvcztzIHByZXNjcmliZWQgYnkgc29tZW9uZQogICAgICAgICAgICAgICAgICB3aG8gYWN0dWFsbHkgdW5kZXJzdGFuZHMgaG93IHlvdSB0cmFpbiwgbGl2ZSwgYW5kIHdvcmsuIFRoYXQmYXBvcztzCiAgICAgICAgICAgICAgICAgIHRoZSBmb3VuZGF0aW9uIFVwd2FyZCBQaHlzaW8gaXMgYnVpbHQgb24uCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9SZXZlYWw+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPFJldmVhbCBkZWxheT17MC4yfSBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBhc3BlY3QtWzQvNV0gb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItaW5rLTcwMCI+CiAgICAgICAgICAgICAgICA8SW1hZ2UKICAgICAgICAgICAgICAgICAgc3JjPSIvaW1hZ2VzL2RhbmllbC1oZWFkc2hvdC53ZWJwIgogICAgICAgICAgICAgICAgICBhbHQ9IkRhbmllbCwgbGljZW5zZWQgcGh5c2ljYWwgdGhlcmFwaXN0IGFuZCBmb3VuZGVyIG9mIFVwd2FyZCBQaHlzaW8iCiAgICAgICAgICAgICAgICAgIGZpbGwKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJvYmplY3QtY292ZXIgb2JqZWN0LXRvcCIKICAgICAgICAgICAgICAgICAgc2l6ZXM9IihtYXgtd2lkdGg6IDEwMjRweCkgMTAwdncsIDQwdnciCiAgICAgICAgICAgICAgICAgIHByaW9yaXR5CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctZ3JhZGllbnQtdG8tdCBmcm9tLWluay05NTAvNjAgdmlhLXRyYW5zcGFyZW50IHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1JldmVhbD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogQmlvIG5hcnJhdGl2ZSAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uIGJnLWluay05NTAgYm9yZGVyLXQgYm9yZGVyLWluay04MDAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTEyIGxnOmdyaWQtY29scy0zIGxnOmdhcC0xNiI+CiAgICAgICAgICAgIDxSZXZlYWw+CiAgICAgICAgICAgICAgPFNlY3Rpb25IZWFkaW5nCiAgICAgICAgICAgICAgICBleWVicm93PSJUaGUgQmlvIgogICAgICAgICAgICAgICAgdGl0bGU9ewogICAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICAgIEJ1aWx0IG9uIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZWFsLTQwMCBpdGFsaWMiPnR3byB3b3JsZHMuPC9zcGFuPgogICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L1JldmVhbD4KCiAgICAgICAgICAgIDxSZXZlYWwgZGVsYXk9ezAuMX0gY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0yIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02IHRleHQtaW5rLTIwMCBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1sZyI+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgSGkgZXZlcnlvbmUsIEkmYXBvczttIERKIEtlaW0sIE1vbWVudGEmYXBvcztzIG5ld2VzdCBwaHlzaWNhbAogICAgICAgICAgICAgICAgICB0aGVyYXBpc3QuIEkgZ3JldyB1cCBpbiBzb3V0aGVhc3QgTWlzc291cmkgYW5kIGVhcm5lZCBteQogICAgICAgICAgICAgICAgICBEb2N0b3JhdGUgb2YgUGh5c2ljYWwgVGhlcmFweSBmcm9tIFdhc2hpbmd0b24gVW5pdmVyc2l0eSBpbgogICAgICAgICAgICAgICAgICBTdC4gTG91aXMuIEkgc3BlbnQgbXkgZmlyc3QgZm91ciB5ZWFycyBwb3N0LWdyYWR1YXRpb24gaW4KICAgICAgICAgICAgICAgICAgV2FzaGluZ3RvbiwgREMsIHdvcmtpbmcgaW4gb3V0cGF0aWVudCBvcnRob3BlZGljcyBhbmQgc3BvcnRzCiAgICAgICAgICAgICAgICAgIG1lZGljaW5lIHdoaWxlIGFsc28gdHJlYXRpbmcgYSBzbWFsbCBpbi1ob21lIGNhc2Vsb2FkIG9uIG5pZ2h0cwogICAgICAgICAgICAgICAgICBhbmQgd2Vla2VuZHMuCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgTW9yZSByZWNlbnRseSwgSSBzcGVudCBhIHllYXIgZGV2ZWxvcGluZyBhbmQgbGF1bmNoaW5nIHRoZQogICAgICAgICAgICAgICAgICBmaXJzdCBwcmV2ZW50YXRpdmUgdGhlcmFweSBwcm9ncmFtIGZvcnsnICd9CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZWFsLTQwMCI+TWV0cm8gKFdNQVRBKTwvc3Bhbj4gZW1wbG95ZWVzCiAgICAgICAgICAgICAgICAgIGFjcm9zcyB0aGUgREMvTWFyeWxhbmQvVmlyZ2luaWEgcmVnaW9uLCB3aGljaCBzcGFya2VkIG15IHBhc3Npb24KICAgICAgICAgICAgICAgICAgZm9yIG9jY3VwYXRpb25hbCBoZWFsdGggYW5kIGluanVyeSBwcmV2ZW50aW9uLiBJIHJlY2VudGx5IG1vdmVkCiAgICAgICAgICAgICAgICAgIHRvIERlbnZlciBhbmQgbm93IHdvcmsgYXMgdGhlIGRpcmVjdG9yIG9mIGFuIG9jY3VwYXRpb25hbCBoZWFsdGgKICAgICAgICAgICAgICAgICAgY2xpbmljIGhlcmUgaW4gdGhlIGNpdHkuCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8cD4KICAgICAgICAgICAgICAgICAgT3V0c2lkZSBvZiB3b3JrLCBJIGVuam95IHRyYXZlbGluZywgc3BlbmRpbmcgdGltZSB3aXRoIGZhbWlseSwKICAgICAgICAgICAgICAgICAgZmluZGluZyBuZXcgY29mZmVlIHNob3BzIGFuZCBicmV3ZXJpZXMsIGFuZCB3ZWlnaHRsaWZ0aW5nLgogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWluay01MCBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIE15IGFwcHJvYWNoIGlzIG1vdmVtZW50LWZvY3VzZWQsIHVzaW5nIHRhcmdldGVkIGV4ZXJjaXNlIGFuZAogICAgICAgICAgICAgICAgICBlZHVjYXRpb24gdG8gdGVhY2ggeW91IHRoZSBzdHJhdGVnaWVzLCBleGVyY2lzZXMgYW5kIGhhYml0cyB0aGF0CiAgICAgICAgICAgICAgICAgIHdpbGwgZ2V0IHlvdSBvdXQgb2YgcGFpbiBhbmQgcHJldmVudCByZWN1cnJlbnQgaW5qdXJ5LiBXaGVuCiAgICAgICAgICAgICAgICAgIGFwcHJvcHJpYXRlLCBJIHV0aWxpemUgaGFuZHMtb24gdGVjaG5pcXVlcyBhbmQgbW9kYWxpdGllcyB0byBoZWxwCiAgICAgICAgICAgICAgICAgIHJlc3RvcmUgcGFpbi1mcmVlIG1vdmVtZW50LiBJJmFwb3M7bSBhbHNvIGEgQ2VydGlmaWVkIFN0cmVuZ3RoIGFuZAogICAgICAgICAgICAgICAgICBDb25kaXRpb25pbmcgQ29hY2ggKENTQ1MpLCB3aGljaCBoZWxwcyBzaGFwZSBteSBhcHByb2FjaCB0byByZWhhYgogICAgICAgICAgICAgICAgICBhbmQgcGVyZm9ybWFuY2UuCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvUmV2ZWFsPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBQaG90byBnYWxsZXJ5ICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24gYmctaW5rLTk1MCBib3JkZXItdCBib3JkZXItaW5rLTgwMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciI+CiAgICAgICAgICA8UmV2ZWFsPgogICAgICAgICAgICA8U2VjdGlvbkhlYWRpbmcKICAgICAgICAgICAgICBleWVicm93PSJJbiBQcmFjdGljZSIKICAgICAgICAgICAgICB0aXRsZT17CiAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICBXaGVyZSB0aGUgd29yayA8c3BhbiBjbGFzc05hbWU9InRleHQtdGVhbC00MDAgaXRhbGljIj5oYXBwZW5zLjwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvUmV2ZWFsPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEyIGdyaWQgZ2FwLTQgbWQ6Z3JpZC1jb2xzLTYgbWQ6YXV0by1yb3dzLVsyMDBweF0iPgogICAgICAgICAgICA8UmV2ZWFsIGNsYXNzTmFtZT0ibWQ6Y29sLXNwYW4tNCBtZDpyb3ctc3Bhbi0yIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgaC1mdWxsIG1pbi1oLVsyNjBweF0gb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItaW5rLTcwMCI+CiAgICAgICAgICAgICAgICA8SW1hZ2UKICAgICAgICAgICAgICAgICAgc3JjPSIvaW1hZ2VzL2RqLXRyZWF0bWVudC1yb29tLndlYnAiCiAgICAgICAgICAgICAgICAgIGFsdD0iREogS2VpbSB0cmVhdGluZyBhIGNsaWVudCBpbiBhIHdpbmRvdy1saW5lZCB0aGVyYXB5IHN0dWRpbyIKICAgICAgICAgICAgICAgICAgZmlsbAogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im9iamVjdC1jb3ZlciIKICAgICAgICAgICAgICAgICAgc2l6ZXM9IihtYXgtd2lkdGg6IDc2OHB4KSAxMDB2dywgNjZ2dyIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1ncmFkaWVudC10by10IGZyb20taW5rLTk1MC81MCB0by10cmFuc3BhcmVudCIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9SZXZlYWw+CiAgICAgICAgICAgIDxSZXZlYWwgZGVsYXk9ezAuMX0gY2xhc3NOYW1lPSJtZDpjb2wtc3Bhbi0yIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgaC1mdWxsIG1pbi1oLVsyMDBweF0gb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItaW5rLTcwMCI+CiAgICAgICAgICAgICAgICA8SW1hZ2UKICAgICAgICAgICAgICAgICAgc3JjPSIvaW1hZ2VzL2RqLWd5bS1zZXNzaW9uLndlYnAiCiAgICAgICAgICAgICAgICAgIGFsdD0iREogS2VpbSBjb2FjaGluZyBhIGNsaWVudCB0aHJvdWdoIG92ZXJoZWFkIG1vYmlsaXR5IGluIHRoZSBneW0iCiAgICAgICAgICAgICAgICAgIGZpbGwKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJvYmplY3QtY292ZXIiCiAgICAgICAgICAgICAgICAgIHNpemVzPSIobWF4LXdpZHRoOiA3NjhweCkgMTAwdncsIDMzdnciCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1JldmVhbD4KICAgICAgICAgICAgPFJldmVhbCBkZWxheT17MC4yfSBjbGFzc05hbWU9Im1kOmNvbC1zcGFuLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBoLWZ1bGwgbWluLWgtWzIwMHB4XSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1pbmstNzAwIj4KICAgICAgICAgICAgICAgIDxJbWFnZQogICAgICAgICAgICAgICAgICBzcmM9Ii9pbWFnZXMvZGotcHJlc2VudGluZy53ZWJwIgogICAgICAgICAgICAgICAgICBhbHQ9IkRKIEtlaW0gcHJlc2VudGluZyBvbiBwaHlzaWNhbCB0aGVyYXB5IGluIHRyYW5zaXQgb3BlcmF0aW9ucyIKICAgICAgICAgICAgICAgICAgZmlsbAogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im9iamVjdC1jb3ZlciBvYmplY3QtY2VudGVyIgogICAgICAgICAgICAgICAgICBzaXplcz0iKG1heC13aWR0aDogNzY4cHgpIDEwMHZ3LCAzM3Z3IgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXQgZnJvbS1pbmstOTUwLzQwIHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L1JldmVhbD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogSm91cm5leSB0aW1lbGluZSAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uIGJnLWluay05MDAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIiPgogICAgICAgICAgPFJldmVhbD4KICAgICAgICAgICAgPFNlY3Rpb25IZWFkaW5nCiAgICAgICAgICAgICAgZXllYnJvdz0iVGhlIEpvdXJuZXkiCiAgICAgICAgICAgICAgdGl0bGU9ewogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgSG93IHdlIGdvdCA8c3BhbiBjbGFzc05hbWU9InRleHQtdGVhbC00MDAgaXRhbGljIj5oZXJlLjwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgLz4KICAgICAgICAgIDwvUmV2ZWFsPgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xNiBncmlkIGdhcC02IG1kOmdyaWQtY29scy0yIj4KICAgICAgICAgICAge2pvdXJuZXkubWFwKChpdGVtLCBpZHgpID0+ICgKICAgICAgICAgICAgICA8UmV2ZWFsIGtleT17aWR4fSBkZWxheT17aWR4ICogMC4xfT4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWluay03MDAgYmctaW5rLTk1MC81MCBwLTggaC1mdWxsIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGgtMTIgdy0xMiBzaHJpbmstMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC14bCBiZy10ZWFsLTQwMC8xMCB0ZXh0LXRlYWwtNDAwIj4KICAgICAgICAgICAgICAgICAgICAgIDxpdGVtLmljb24gc2l6ZT17MjJ9IC8+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1pbmstNTAiPgogICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS50aXRsZX0KICAgICAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1pbmstMzAwIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLmJvZHl9CiAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9SZXZlYWw+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBQaGlsb3NvcGh5ICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24gYmctaW5rLTk1MCByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTQwIHJpZ2h0LTEvNCBoLVs0MDBweF0gdy1bNjAwcHhdIHJvdW5kZWQtZnVsbCBiZy1lbWJlci01MDAvMTAgYmx1ci1bMTIwcHhdIiAvPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIHJlbGF0aXZlIj4KICAgICAgICAgIDxSZXZlYWw+CiAgICAgICAgICAgIDxTZWN0aW9uSGVhZGluZwogICAgICAgICAgICAgIGV5ZWJyb3c9IlBoaWxvc29waHkiCiAgICAgICAgICAgICAgdGl0bGU9ewogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgVGhyZWUgYmVsaWVmcyB0aGF0IHNoYXBlIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10ZWFsLTQwMCBpdGFsaWMiPmV2ZXJ5IHNlc3Npb24uPC9zcGFuPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIGFsaWduPSJjZW50ZXIiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L1JldmVhbD4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMTYgZ3JpZCBnYXAtNiBtZDpncmlkLWNvbHMtMyI+CiAgICAgICAgICAgIHtwaGlsb3NvcGh5Lm1hcCgocCwgaWR4KSA9PiAoCiAgICAgICAgICAgICAgPFJldmVhbCBrZXk9e2lkeH0gZGVsYXk9e2lkeCAqIDAuMX0+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgcC04Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gZmxleCBoLTE0IHctMTQgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtMnhsIGJnLWdyYWRpZW50LXRvLWJyIGZyb20tdGVhbC00MDAgdG8tdGVhbC02MDAgdGV4dC1pbmstOTUwIj4KICAgICAgICAgICAgICAgICAgICA8cC5pY29uIHNpemU9ezI2fSAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtNiBmb250LWRpc3BsYXkgdGV4dC0yeGwgZm9udC1ib2xkIHRleHQtaW5rLTUwIj4KICAgICAgICAgICAgICAgICAgICB7cC50aXRsZX0KICAgICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtaW5rLTMwMCBsZWFkaW5nLXJlbGF4ZWQiPntwLmJvZHl9PC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9SZXZlYWw+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPFJldmVhbCBkZWxheT17MC4zfT4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTE2IHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICA8QnV0dG9uIGFzQ2hpbGQgc2l6ZT0ibGciPgogICAgICAgICAgICAgICAgPExpbmsgaHJlZj0iL2NvbnRhY3QiPgogICAgICAgICAgICAgICAgICBXb3JrIFdpdGggTWUKICAgICAgICAgICAgICAgICAgPEFycm93UmlnaHQgc2l6ZT17MTh9IC8+CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9SZXZlYWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxDVEFCYW5uZXIgLz4KICAgIDwvPgogICk7Cn0K
+import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ArrowRight, GraduationCap, Briefcase, Target, Users, Heart, Zap } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Reveal } from '@/components/reveal';
+import { SectionHeading } from '@/components/section-heading';
+import { CTABanner } from '@/components/sections/cta-banner';
+
+export const metadata: Metadata = {
+  title: 'About — Doctor of Physical Therapy',
+  description:
+    'Meet the founder of Upward Physio. Years of occupational health expertise, a passion for performance, and a vision to redefine physical therapy.',
+};
+
+const journey = [
+  {
+    icon: GraduationCap,
+    title: 'Clinical Training',
+    body: 'Earned a Doctorate of Physical Therapy with a focus on orthopedic rehab and movement science. Built a foundation in evidence-based care from day one.',
+  },
+  {
+    icon: Briefcase,
+    title: 'Occupational Health',
+    body: 'Spent years in occupational health, designing return-to-work programs, conducting injury prevention training, and seeing how movement quality shapes lives at scale.',
+  },
+  {
+    icon: Target,
+    title: 'Concierge Side Practice',
+    body: 'Started Upward Physio to serve real people in real environments — gyms, homes, offices. No insurance limits. No 15-minute visits. No compromises.',
+  },
+  {
+    icon: Zap,
+    title: 'Full-Time Vision',
+    body: 'Building toward a full-time private practice that integrates orthopedic rehab, performance training, injury prevention, and corporate wellness under one roof.',
+  },
+];
+
+const philosophy = [
+  {
+    icon: Heart,
+    title: 'You are an athlete.',
+    body: 'Whether you lift, run, climb, or just want to play with your kids — your body deserves athlete-level care. I treat everyone like one.',
+  },
+  {
+    icon: Users,
+    title: 'Real care takes time.',
+    body: 'Hour-long sessions. One client at a time. No clipboards. The model is simple — and it produces better outcomes because it’s built around you.',
+  },
+  {
+    icon: Target,
+    title: 'Rehab is performance.',
+    body: 'Recovery doesn’t end when the pain is gone. It ends when you’re bulletproof — stronger, more resilient, and ready for whatever’s next.',
+  },
+];
+
+export default function AboutPage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden grain">
+        <div className="absolute inset-0 -z-10 grid-bg opacity-40" />
+        <div className="glow-orb h-[500px] w-[500px] bg-teal-500 -right-40 top-1/4 opacity-20" />
+
+        <div className="container relative">
+          <div className="grid gap-12 lg:grid-cols-5 lg:gap-16 items-end">
+            <div className="lg:col-span-3">
+              <Reveal>
+                <div className="inline-flex items-center gap-2 mb-6">
+                  <span className="h-px w-8 bg-teal-400" />
+                  <span className="text-xs font-semibold uppercase tracking-[0.22em] text-teal-400">
+                    About
+                  </span>
+                </div>
+                <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.02] tracking-tight">
+                  A licensed PT building the practice he <span className="text-teal-400 italic">wished existed.</span>
+                </h1>
+                <p className="mt-8 text-lg md:text-xl text-ink-300 leading-relaxed max-w-2xl">
+                  Movement is medicine, but only when it&apos;s prescribed by someone
+                  who actually understands how you train, live, and work. That&apos;s
+                  the foundation Upward Physio is built on.
+                </p>
+              </Reveal>
+            </div>
+
+            <Reveal delay={0.2} className="lg:col-span-2">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/daniel-headshot.webp"
+                  alt="Daniel, licensed physical therapist and founder of Upward Physio"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent" />
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Bio narrative */}
+      <section className="section bg-ink-950 border-t border-ink-800">
+        <div className="container">
+          <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
+            <Reveal>
+              <SectionHeading
+                eyebrow="The Bio"
+                title={
+                  <>
+                    Built on <span className="text-teal-400 italic">two worlds.</span>
+                  </>
+                }
+              />
+            </Reveal>
+
+            <Reveal delay={0.1} className="lg:col-span-2">
+              <div className="space-y-6 text-ink-200 leading-relaxed text-lg">
+                <p>
+                  Hi everyone, I&apos;m DJ Keim, Momenta&apos;s newest physical
+                  therapist. I grew up in southeast Missouri and earned my
+                  Doctorate of Physical Therapy from Washington University in
+                  St. Louis. I spent my first four years post-graduation in
+                  Washington, DC, working in outpatient orthopedics and sports
+                  medicine while also treating a small in-home caseload on nights
+                  and weekends.
+                </p>
+                <p>
+                  More recently, I spent a year developing and launching the
+                  first preventative therapy program for{' '}
+                  <span className="text-teal-400">Metro (WMATA)</span> employees
+                  across the DC/Maryland/Virginia region, which sparked my passion
+                  for occupational health and injury prevention. I recently moved
+                  to Denver and now work as the director of an occupational health
+                  clinic here in the city.
+                </p>
+                <p>
+                  Outside of work, I enjoy traveling, spending time with family,
+                  finding new coffee shops and breweries, and weightlifting.
+                </p>
+                <p className="text-ink-50 font-medium">
+                  My approach is movement-focused, using targeted exercise and
+                  education to teach you the strategies, exercises and habits that
+                  will get you out of pain and prevent recurrent injury. When
+                  appropriate, I utilize hands-on techniques and modalities to help
+                  restore pain-free movement. I&apos;m also a Certified Strength and
+                  Conditioning Coach (CSCS), which helps shape my approach to rehab
+                  and performance.
+                </p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo gallery */}
+      <section className="section bg-ink-950 border-t border-ink-800">
+        <div className="container">
+          <Reveal>
+            <SectionHeading
+              eyebrow="In Practice"
+              title={
+                <>
+                  Where the work <span className="text-teal-400 italic">happens.</span>
+                </>
+              }
+            />
+          </Reveal>
+          <div className="mt-12 grid gap-4 md:grid-cols-6 md:auto-rows-[200px]">
+            <Reveal className="md:col-span-4 md:row-span-2">
+              <div className="relative h-full min-h-[260px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-treatment-room.webp"
+                  alt="DJ Keim treating a client in a window-lined therapy studio"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 66vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/50 to-transparent" />
+              </div>
+            </Reveal>
+            <Reveal delay={0.1} className="md:col-span-2">
+              <div className="relative h-full min-h-[200px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-gym-session.webp"
+                  alt="DJ Keim coaching a client through overhead mobility in the gym"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
+            </Reveal>
+            <Reveal delay={0.2} className="md:col-span-2">
+              <div className="relative h-full min-h-[200px] overflow-hidden rounded-2xl border border-ink-700">
+                <Image
+                  src="/images/dj-presenting.webp"
+                  alt="DJ Keim presenting on physical therapy in transit operations"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/40 to-transparent" />
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Journey timeline */}
+      <section className="section bg-ink-900">
+        <div className="container">
+          <Reveal>
+            <SectionHeading
+              eyebrow="The Journey"
+              title={
+                <>
+                  How we got <span className="text-teal-400 italic">here.</span>
+                </>
+              }
+            />
+          </Reveal>
+
+          <div className="mt-16 grid gap-6 md:grid-cols-2">
+            {journey.map((item, idx) => (
+              <Reveal key={idx} delay={idx * 0.1}>
+                <div className="rounded-2xl border border-ink-700 bg-ink-950/50 p-8 h-full">
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-teal-400/10 text-teal-400">
+                      <item.icon size={22} />
+                    </div>
+                    <div>
+                      <h3 className="font-display text-2xl font-bold text-ink-50">
+                        {item.title}
+                      </h3>
+                      <p className="mt-3 text-ink-300 leading-relaxed">
+                        {item.body}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy */}
+      <section className="section bg-ink-950 relative overflow-hidden">
+        <div className="absolute -top-40 right-1/4 h-[400px] w-[600px] rounded-full bg-ember-500/10 blur-[120px]" />
+
+        <div className="container relative">
+          <Reveal>
+            <SectionHeading
+              eyebrow="Philosophy"
+              title={
+                <>
+                  Three beliefs that shape <span className="text-teal-400 italic">every session.</span>
+                </>
+              }
+              align="center"
+            />
+          </Reveal>
+
+          <div className="mt-16 grid gap-6 md:grid-cols-3">
+            {philosophy.map((p, idx) => (
+              <Reveal key={idx} delay={idx * 0.1}>
+                <div className="text-center p-8">
+                  <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-teal-400 to-teal-600 text-ink-950">
+                    <p.icon size={26} />
+                  </div>
+                  <h3 className="mt-6 font-display text-2xl font-bold text-ink-50">
+                    {p.title}
+                  </h3>
+                  <p className="mt-4 text-ink-300 leading-relaxed">{p.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          <Reveal delay={0.3}>
+            <div className="mt-16 text-center">
+              <Button asChild size="lg">
+                <Link href="/contact">
+                  Work With Me
+                  <ArrowRight size={18} />
+                </Link>
+              </Button>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <CTABanner />
+    </>
+  );
+}
