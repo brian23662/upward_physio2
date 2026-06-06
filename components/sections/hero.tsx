@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/button';
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-center pt-32 pb-20 overflow-hidden grain">
-      {/* Background video with heavy overlay */}
+    <section className="relative min-h-[100svh] flex items-center pt-32 pb-20 overflow-hidden">
+      {/* Background video with overlay */}
       <div className="absolute inset-0 -z-10">
         <video
           autoPlay
@@ -20,8 +20,8 @@ export function Hero() {
         >
           <source src="/hero-bg.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/85 to-ink-950/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-ink-950/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink-950/95 via-ink-950/70 to-ink-950/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-ink-950/50" />
       </div>
 
       {/* Glowing orbs */}
