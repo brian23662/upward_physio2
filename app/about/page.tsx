@@ -87,13 +87,23 @@ export default function AboutPage() {
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-ink-700">
                 <Image
                   src="/images/daniel-headshot.webp"
-                  alt="Daniel, licensed physical therapist and founder of Upward Physio"
+                  alt="DJ Keim, Doctor of Physical Therapy and founder of Upward Physio"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent to-transparent" />
+
+                {/* Identity label */}
+                <div className="absolute bottom-4 left-4 right-4 rounded-xl border border-white/10 bg-ink-950/70 px-5 py-3.5 backdrop-blur-md">
+                  <div className="font-display text-lg font-bold text-ink-50">
+                    DJ Keim
+                  </div>
+                  <div className="mt-0.5 text-sm text-ink-300">
+                    Doctor of Physical Therapy · Founder
+                  </div>
+                </div>
               </div>
             </Reveal>
           </div>
