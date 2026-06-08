@@ -40,7 +40,7 @@ export function ServicesOverview() {
             return (
               <Reveal key={service.slug} delay={idx * 0.08}>
                 <Link
-                  href={`/services#${service.slug}`}
+                  href={`/services/${service.slug}`}
                   className={`group block h-full rounded-2xl border p-8 transition-all duration-500 relative overflow-hidden ${
                     featured
                       ? 'border-teal-400/40 bg-gradient-to-br from-teal-500/10 via-ink-900 to-ink-900'
